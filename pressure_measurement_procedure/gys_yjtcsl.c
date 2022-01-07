@@ -78,7 +78,7 @@ gys_yjtcsl()
      //一键填充数量第三步
     strcpy(base_str3,lr_eval_string("{\"sql_id\":\"SUPPLIER_ORDER_015\","
 									"\"input_param\":{\"po_num_id\":\"14011222000001002\"},"
-									"\"data_sign\":\"0\",\"tenant_num_id\":\"100109\"}"));
+									"\"data_sign\":\"0\",\"tenant_num_id\":\"201101\"}"));
 	lr_convert_string_encoding(base_str3, LR_ENC_SYSTEM_LOCALE, LR_ENC_UTF8,"base_str3" );
 	strcpy(base_str3,lr_eval_string("{base_str3}"));
 	lr_save_string(base_str3,"base_str3");

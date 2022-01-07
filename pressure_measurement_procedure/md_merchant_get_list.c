@@ -18,7 +18,7 @@ md_merchant_get_list()
 
 	web_reg_find("Text=\"code\":0","Savecount=merchant_get_list_code_count",LAST);//设置检查点
 	/**
-	 * {"code":0,"message":"成功","merchant_list":[{"merchant_id":100109,"merchant_name":"华凌八季鲜"}]}
+	 * {"code":0,"message":"成功","merchant_list":[{"merchant_id":201101,"merchant_name":"微商服务店"}]}
 	 */
 	//微商登录商家ID做关联
 	web_reg_save_param("merchantid","RB=\,","LB={\"merchant_id\":","ORD=ALL",LAST);//用关联函数取值 

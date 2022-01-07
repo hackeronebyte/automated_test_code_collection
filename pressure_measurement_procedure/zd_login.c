@@ -32,7 +32,7 @@ zd_login()
 	/**
 	 * {"code":0,"message":"成功","full_message":null,"work_nums":"管理员",
 	 * "sid":"57340ce6c46942c5bb1a343cc65b21df", "salt":"bfcd4118dcf0889b83d6e41eaf5dcc20",
-	 * "empe_name":"管理员","sub_unit_num_id":100049,"sub_unit_name":"生鲜超市总部","physical_storages":null}
+	 * "empe_name":"管理员","sub_unit_num_id":120011,"sub_unit_name":"微商服总部","physical_storages":null}
 	 */
 	web_reg_find("Text=\"code\":0","Savecount=login_code_count",LAST);//设置检查点
     web_reg_save_param("zd_sid","RB=\",","LB=\"sid\":\"",LAST);//用关联函数取值

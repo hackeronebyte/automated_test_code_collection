@@ -21,7 +21,7 @@ gys_merchant_get_list()
 
     //代理商商家ID
 	/**
-	 * {"code":0,"message":"成功","merchant_list":[{"merchant_name":"华凌八季鲜","merchant_id":100109}]}
+	 * {"code":0,"message":"成功","merchant_list":[{"merchant_name":"微商服务店","merchant_id":201101}]}
 	 */
 	web_reg_save_param("gysmerchantid","RB=}","LB=\"merchant_id\":","ORD=ALL",LAST);//用关联函数取值 
 

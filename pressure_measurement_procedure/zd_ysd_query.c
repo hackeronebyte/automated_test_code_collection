@@ -58,7 +58,7 @@ zd_ysd_query()
 
 	//"reserved_no":"19011130000000070",验收单号
 	web_reg_save_param("zd_reserved_no","RB=\",","LB=\"reserved_no\":\"",LAST);//用关联函数取值 
-	//"sub_unit_num_id":100049,
+	//"sub_unit_num_id":120011,
 	web_reg_save_param("zd_head_sub_unit_num_id","RB=,","LB=\"sub_unit_num_id\":",LAST);//用关联函数取值 
 	// "po_num_id":"14011222000001003", 总商采购单号 zd_single_po_num_id
 	web_reg_save_param("zd_single_po_num_id","RB=\",","LB=\"po_num_id\":\"",LAST);//用关联函数取值 

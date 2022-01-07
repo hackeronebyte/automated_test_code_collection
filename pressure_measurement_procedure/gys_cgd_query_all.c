@@ -68,7 +68,7 @@ gys_cgd_query_all()
 	web_reg_find("Text=\"code\":0","Savecount=gys_cgd_query_single_code_count",LAST);//设置检查点
     //"order_date":"2021-12-28 00:00:00",下单时间
 	web_reg_save_param("gys_order_date","RB=\",","LB=\"order_date\":\"",LAST);//用关联函数取值 
-	//"sub_unit_num_id":100049, 总商微商ID
+	//"sub_unit_num_id":120011, 总商微商ID
 	web_reg_save_param("gys_sub_unit_num_id","RB=,","LB=\"sub_unit_num_id\":",LAST);//用关联函数取值 
 	//"supply_unit_num_id":"4116", 代理商ID
 	web_reg_save_param("gys_supply_unit_num_id","RB=\",","LB=\"supply_unit_num_id\":\"",LAST);//用关联函数取值 
