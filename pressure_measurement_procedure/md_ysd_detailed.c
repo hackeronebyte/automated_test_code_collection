@@ -141,7 +141,7 @@ md_ysd_detailed()
 	strcpy(base_str5,base64_encode(lr_eval_string("{base_str5}"),strlen(base_str5)));
 	lr_save_string(base_str5,"base_str5");
 	web_reg_find("Text=\"code\":0","Savecount=YKPPAY-WM-0340_code_count",LAST);//设置检查点
-	//"item_num_id":1214,
+	//"item_num_id":1543,
     web_reg_save_param("md_ysd_item_num_id","RB=,","LB=\"item_num_id\":",LAST);//用关联函数取值 
 	//"package_qty":131.0000,
     web_reg_save_param("md_ysd_package_qty","RB=,","LB=\"package_qty\":",LAST);//用关联函数取值 

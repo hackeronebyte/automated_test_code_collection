@@ -84,7 +84,7 @@ char *mendian_itemid_barcode(){
 	if(environment()==1){
       strcpy(barcode_id,"100111");
 	}else{
-      strcpy(barcode_id,"12141");
+      strcpy(barcode_id,"15431");
 	}
 	return barcode_id;
 

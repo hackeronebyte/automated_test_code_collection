@@ -87,7 +87,7 @@ zd_ysd_detailed()
 	//保存验收单关联准备数据
 	//"series":"1054760355185655808
 	web_reg_save_param("zd_series","RB=\",","LB=\"series\":\"",LAST);//用关联函数取值 
-	// "item_num_id":1214,
+	// "item_num_id":1543,
 	web_reg_save_param("zd_item_num_id","RB=,","LB=\"item_num_id\":",LAST);//用关联函数取值 
 	//"package_qty":131.0000,
 	web_reg_save_param("zd_package_qty","RB=,","LB=\"package_qty\":",LAST);//用关联函数取值 

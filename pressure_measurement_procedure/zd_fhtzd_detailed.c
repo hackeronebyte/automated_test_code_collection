@@ -50,7 +50,7 @@ zd_fhtzd_detailed()
 	web_reg_find("Text=\"code\":0","Savecount=fhtzd_detailed2_code_count",LAST);//设置检查点
 	//"series":"1054710492880355328",
 	web_reg_save_param("zd_fhtzd_series","RB=\",","LB=\"series\":\"",LAST);//用关联函数取值 
-	//"item_num_id": 1214,
+	//"item_num_id": 1543,
 	web_reg_save_param("zd_fhtzd_item_num_id","RB=,","LB=\"item_num_id\":",LAST);//用关联函数取值 
 	//"lock_qty": 131,
 	web_reg_save_param("zd_fhtzd_lock_qty","RB=,","LB=\"lock_qty\":",LAST);//用关联函数取值 

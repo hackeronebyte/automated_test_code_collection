@@ -70,7 +70,7 @@ gys_cgd_query_all()
 	web_reg_save_param("gys_order_date","RB=\",","LB=\"order_date\":\"",LAST);//用关联函数取值 
 	//"sub_unit_num_id":120011, 总商微商ID
 	web_reg_save_param("gys_sub_unit_num_id","RB=,","LB=\"sub_unit_num_id\":",LAST);//用关联函数取值 
-	//"supply_unit_num_id":"4116", 代理商ID
+	//"supply_unit_num_id":"5678", 代理商ID
 	web_reg_save_param("gys_supply_unit_num_id","RB=\",","LB=\"supply_unit_num_id\":\"",LAST);//用关联函数取值 
 	//"po_num_id":"14011222000001002", 代理商采购单号
 	web_reg_save_param("gys_po_num_id","RB=\",","LB=\"po_num_id\":\"",LAST);//用关联函数取值 
