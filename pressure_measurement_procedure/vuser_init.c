@@ -116,7 +116,7 @@ int rerun_value(){
 	return 0;
 
 }
-//请求URL做统一处理
+//微商总商请求URL做统一处理
 char *base_url(){
 	char url[50];
 	if (environment()==1) {
